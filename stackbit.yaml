@@ -1,0 +1,481 @@
+stackbitVersion: ~0.3.0
+dataDir: locales
+pagesDir: docs
+models:
+  doc:
+    type: page
+    label: Doc
+    match: '*'
+    fields: []
+  locale:
+    type: data
+    label: Locale
+    fields:
+      - type: string
+        name: Back
+        label: Back
+      - type: string
+        name: Newer Posts
+        label: Newer Posts
+      - type: string
+        name: of
+        label: Of
+      - type: string
+        name: Older Posts
+        label: Older Posts
+      - type: string
+        name: Page
+        label: Page
+      - type: string
+        name: Home
+        label: Home
+      - type: string
+        name: More
+        label: More
+      - type: string
+        name: Posts Tagged
+        label: Posts Tagged
+      - type: string
+        name: 'There are {total} posts in total'
+        label: There Are Total Posts In Total
+      - type: string
+        name: The full archive
+        label: The Full Archive
+      - type: string
+        name: Subscribe
+        label: Subscribe
+      - type: string
+        name: Log in
+        label: Log In
+      - type: string
+        name: Upgrade
+        label: Upgrade
+      - type: string
+        name: Account
+        label: Account
+      - type: string
+        name: Log out
+        label: Log Out
+      - type: string
+        name: Sign in
+        label: Sign In
+      - type: string
+        name: Sign up
+        label: Sign Up
+      - type: string
+        name: Subscribe now
+        label: Subscribe Now
+      - type: string
+        name: Signed in as
+        label: Signed In As
+      - type: string
+        name: This post is for paying subscribers only
+        label: This Post Is For Paying Subscribers Only
+      - type: string
+        name: Read the rest of this story with a free account.
+        label: Read The Rest Of This Story With A Free Account
+      - type: string
+        name: Hey there!
+        label: Hey There
+      - type: markdown
+        name: >-
+          You don't have access to this post on <strong>{siteTitle}</strong> at
+          the moment, but if you upgrade your account you'll be able to see the
+          whole thing, as well as all the other posts in the archive!
+          Subscribing only takes a few seconds and will give you immediate
+          access.
+        label: >-
+          You Dont Have Access To This Post On Strong Site Title Strong At The
+          Moment But If You Upgrade Your Account Youll Be Able To See The Whole
+          Thing As Well As All The Other Posts In The Archive Subscribing Only
+          Takes A Few Seconds And Will Give You Immediate Access
+      - type: string
+        name: Already have an account?
+        label: Already Have An Account
+      - type: string
+        name: You've successfully subscribed to
+        label: Youve Successfully Subscribed To
+      - type: string
+        name: 'Great! Next, complete checkout for full access to'
+        label: Great Next Complete Checkout For Full Access To
+      - type: string
+        name: Welcome back! You've successfully signed in.
+        label: Welcome Back Youve Successfully Signed In
+      - type: string
+        name: Unable to sign you in. Please try again.
+        label: Unable To Sign You In Please Try Again
+      - type: string
+        name: >-
+          Success! Your account is fully activated, you now have access to all
+          content.
+        label: >-
+          Success Your Account Is Fully Activated You Now Have Access To All
+          Content
+      - type: string
+        name: Success! Your billing info is updated.
+        label: Success Your Billing Info Is Updated
+      - type: string
+        name: Billing info update failed.
+        label: Billing Info Update Failed
+      - type: string
+        name: A collection of posts
+        label: A Collection Of Posts
+      - type: string
+        name: A collection of 1 post
+        label: A Collection Of 1 Post
+      - type: string
+        name: A collection of % posts
+        label: A Collection Of Posts
+      - type: string
+        name: Get the best viral stories straight into your inbox!
+        label: Get The Best Viral Stories Straight Into Your Inbox
+      - type: string
+        name: Latest Posts
+        label: Latest Posts
+      - type: string
+        name: No posts
+        label: No Posts
+      - type: string
+        name: Read more
+        label: Read More
+      - type: string
+        name: See all % posts
+        label: See All Posts
+      - type: string
+        name: >-
+          Stay up to date! Get all the latest & greatest posts delivered
+          straight to your inbox
+        label: >-
+          Stay Up To Date Get All The Latest Greatest Posts Delivered Straight
+          To Your Inbox
+      - type: string
+        name: youremail@example.com
+        label: Youremail Example Com
+      - type: string
+        name: 1 post
+        label: 1 Post
+      - type: string
+        name: '% posts'
+        label: Posts
+      - type: string
+        name: Search
+        label: Search
+      - type: string
+        name: < 1 min read
+        label: 1 Min Read
+      - type: string
+        name: 1 min read
+        label: 1 Min Read
+      - type: string
+        name: '% min read'
+        label: Min Read
+      - type: string
+        name: Comments
+        label: Comments
+      - type: string
+        name: Next article
+        label: Next Article
+      - type: string
+        name: Previous article
+        label: Previous Article
+      - type: string
+        name: in
+        label: In
+      - type: string
+        name: Featured Articles
+        label: Featured Articles
+      - type: string
+        name: Sign up for my newsletter!
+        label: Sign Up For My Newsletter
+      - type: string
+        name: Related Articles
+        label: Related Articles
+      - type: string
+        name: 'Unfortunately, this page doesn''t exist'
+        label: Unfortunately This Page Doesnt Exist
+      - type: string
+        name: Go to the profile of
+        label: Go To The Profile Of
+      - type: string
+        name: Hi I'm
+        label: Hi Im
+      - type: string
+        name: Go to
+        label: Go To
+      - type: string
+        name: Stories
+        label: Stories
+      - type: string
+        name: Navigate up/down
+        label: Navigate Up Down
+      - type: string
+        name: Go to article
+        label: Go To Article
+      - type: string
+        name: Search new term
+        label: Search New Term
+      - type: string
+        name: Close search
+        label: Close Search
+      - type: string
+        name: No results found
+        label: No Results Found
+      - type: string
+        name: featured story
+        label: Featured Story
+      - type: string
+        name: Read post
+        label: Read Post
+      - type: string
+        name: About Us
+        label: About Us
+      - type: string
+        name: Share
+        label: Share
+      - type: string
+        name: Share on
+        label: Share On
+      - type: string
+        name: Send
+        label: Send
+      - type: string
+        name: Listen
+        label: Listen
+      - type: markdown
+        name: Related <span class='text-primary'>Articles</span>
+        label: Related Span Class Text Primary Articles Span
+      - type: string
+        name: Please enter a valid email address!
+        label: Please Enter A Valid Email Address
+      - type: markdown
+        name: >-
+          <strong>Great!</strong> Check your inbox and click the link to confirm
+          your subscription
+        label: >-
+          Strong Great Strong Check Your Inbox And Click The Link To Confirm
+          Your Subscription
+      - type: string
+        name: By
+        label: By
+      - type: string
+        name: Updated
+        label: Updated
+      - type: string
+        name: Get Started
+        label: Get Started
+      - type: markdown
+        name: Related <span class='text-success'>Articles</span>
+        label: Related Span Class Text Success Articles Span
+  locale_1:
+    type: data
+    label: Locale 1
+    fields:
+      - type: string
+        name: Back
+        label: Back
+      - type: string
+        name: Newer Posts
+        label: Newer Posts
+      - type: string
+        name: of
+        label: Of
+      - type: string
+        name: Older Posts
+        label: Older Posts
+      - type: string
+        name: Page
+        label: Page
+      - type: string
+        name: Subscribe
+        label: Subscribe
+      - type: string
+        name: Subscribe to
+        label: Subscribe To
+      - type: string
+        name: You've successfully subscribed to
+        label: Youve Successfully Subscribed To
+      - type: string
+        name: A collection of posts
+        label: A Collection Of Posts
+      - type: string
+        name: A collection of 1 post
+        label: A Collection Of 1 Post
+      - type: string
+        name: A collection of % posts
+        label: A Collection Of Posts
+      - type: string
+        name: Get the best viral stories straight into your inbox!
+        label: Get The Best Viral Stories Straight Into Your Inbox
+      - type: string
+        name: Latest Posts
+        label: Latest Posts
+      - type: string
+        name: No posts
+        label: No Posts
+      - type: string
+        name: Read more
+        label: Read More
+      - type: string
+        name: See all % posts
+        label: See All Posts
+      - type: string
+        name: Share this
+        label: Share This
+      - type: string
+        name: >-
+          Stay up to date! Get all the latest & greatest posts delivered
+          straight to your inbox
+        label: >-
+          Stay Up To Date Get All The Latest Greatest Posts Delivered Straight
+          To Your Inbox
+      - type: string
+        name: youremail@example.com
+        label: Youremail Example Com
+      - type: string
+        name: 1 post
+        label: 1 Post
+      - type: string
+        name: '% posts'
+        label: Posts
+      - type: string
+        name: Search
+        label: Search
+      - type: string
+        name: < 1 min read
+        label: 1 Min Read
+      - type: string
+        name: 1 min read
+        label: 1 Min Read
+      - type: string
+        name: '% min read'
+        label: Min Read
+      - type: string
+        name: shares
+        label: Shares
+      - type: string
+        name: Comments
+        label: Comments
+      - type: string
+        name: Next article
+        label: Next Article
+      - type: string
+        name: Previous article
+        label: Previous Article
+      - type: string
+        name: in
+        label: In
+      - type: string
+        name: Featured Articles
+        label: Featured Articles
+      - type: string
+        name: Sign up for my newsletter!
+        label: Sign Up For My Newsletter
+      - type: string
+        name: Related Articles
+        label: Related Articles
+      - type: string
+        name: 'Unfortunately, this page doesn''t exist'
+        label: Unfortunately This Page Doesnt Exist
+      - type: string
+        name: Go to the profile of
+        label: Go To The Profile Of
+      - type: string
+        name: Hi I'm
+        label: Hi Im
+      - type: string
+        name: Go to
+        label: Go To
+      - type: string
+        name: Stories
+        label: Stories
+      - type: string
+        name: Navigate up/down
+        label: Navigate Up Down
+      - type: string
+        name: Go to article
+        label: Go To Article
+      - type: string
+        name: Search new term
+        label: Search New Term
+      - type: string
+        name: Close search
+        label: Close Search
+      - type: string
+        name: No results found
+        label: No Results Found
+      - type: string
+        name: GO TOP
+        label: GO TOP
+      - type: string
+        name: featured story
+        label: Featured Story
+      - type: string
+        name: Read post
+        label: Read Post
+      - type: string
+        name: About Us
+        label: About Us
+      - type: string
+        name: Share this article
+        label: Share This Article
+      - type: string
+        name: Share
+        label: Share
+      - type: string
+        name: Send
+        label: Send
+      - type: string
+        name: Listen
+        label: Listen
+      - type: markdown
+        name: Related <span class='text-success'>Articles</span>
+        label: Related Span Class Text Success Articles Span
+      - type: string
+        name: Please enter a valid email address!
+        label: Please Enter A Valid Email Address
+      - type: markdown
+        name: >-
+          <strong>Great!</strong> Check your inbox and click the link to confirm
+          your subscription
+        label: >-
+          Strong Great Strong Check Your Inbox And Click The Link To Confirm
+          Your Subscription
+      - type: string
+        name: Subscribed!
+        label: Subscribed
+      - type: string
+        name: with the email address
+        label: With The Email Address
+      - type: string
+        name: Your email address
+        label: Your Email Address
+      - type: string
+        name: You've successfully subscribed
+        label: Youve Successfully Subscribed
+      - type: string
+        name: Read More
+        label: Read More
+      - type: markdown
+        name: 'Read <a href=''{url}''>more posts</a> by this author'
+        label: Read A Href Url More Posts A By This Author
+      - type: string
+        name: Prev article
+        label: Prev Article
+      - type: string
+        name: Latest Articles
+        label: Latest Articles
+      - type: string
+        name: Tag Cloud
+        label: Tag Cloud
+      - type: string
+        name: Follow
+        label: Follow
+      - type: string
+        name: Want more stuff like this?
+        label: Want More Stuff Like This
+      - type: string
+        name: Related Posts
+        label: Related Posts
+      - type: string
+        name: Get the latest posts delivered right to your inbox
+        label: Get The Latest Posts Delivered Right To Your Inbox
